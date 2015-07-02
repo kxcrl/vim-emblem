@@ -6,4 +6,5 @@
 " License:     GPL-3.0
 
 autocmd BufNewFile,BufRead *.emblem set filetype=emblem
+autocmd BufNewFile,BufRead *.em set filetype=emblem
 autocmd FileType emblem set tabstop=2|set shiftwidth=2|set expandtab
